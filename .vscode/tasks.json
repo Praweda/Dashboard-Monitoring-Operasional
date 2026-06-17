@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build BJB.Dashboard",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/BJB.Dashboard.slnx"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

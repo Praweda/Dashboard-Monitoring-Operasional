@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "BJB.Dashboard API",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build BJB.Dashboard",
+      "program": "${workspaceFolder}/BJB.Dashboard/bin/Debug/net10.0/BJB.Dashboard.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/BJB.Dashboard",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(http://\\S+)",
+        "uriFormat": "%s/swagger/index.html"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5172"
+      }
+    }
+  ]
+}

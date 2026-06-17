@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library\BJB.Dashboard.Context\BJB.Dashboard.Context.csproj" />
+    <ProjectReference Include="..\Library\BJB.Dashboard.Library\BJB.Dashboard.Library.csproj" />
+    <ProjectReference Include="..\Model\BJB.Dashboard.Model\BJB.Dashboard.Model.csproj" />
+    <ProjectReference Include="..\Repository\BJB.Dashboard.Repository\BJB.Dashboard.Repository.csproj" />
+    <ProjectReference Include="..\Service\BJB.Dashboard.Service\BJB.Dashboard.Service.csproj" />
+  </ItemGroup>
+
+</Project>

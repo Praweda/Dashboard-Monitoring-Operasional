@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Library/">
+    <Project Path="Library/BJB.Dashboard.Context/BJB.Dashboard.Context.csproj" />
+    <Project Path="Library/BJB.Dashboard.Library/BJB.Dashboard.Library.csproj" />
+  </Folder>
+  <Folder Name="/Model/">
+    <Project Path="Model/BJB.Dashboard.Model/BJB.Dashboard.Model.csproj" />
+  </Folder>
+  <Folder Name="/Repository/">
+    <Project Path="Repository/BJB.Dashboard.Repository/BJB.Dashboard.Repository.csproj" />
+  </Folder>
+  <Folder Name="/Service/">
+    <Project Path="Service/BJB.Dashboard.Service/BJB.Dashboard.Service.csproj" />
+  </Folder>
+  <Project Path="BJB.Dashboard/BJB.Dashboard.csproj" />
+</Solution>
