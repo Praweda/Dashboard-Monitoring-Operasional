@@ -16,6 +16,7 @@ D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.Gen
 D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.AssemblyInfoInputs.cache
 D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.AssemblyInfo.cs
 D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.csproj.CoreCompileInputs.cache
+D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.sourcelink.json
 D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.dll
 D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\refint\BJB.Dashboard.Model.dll
 D:\dashboard\Model\BJB.Dashboard.Model\obj\Debug\net10.0\BJB.Dashboard.Model.pdb

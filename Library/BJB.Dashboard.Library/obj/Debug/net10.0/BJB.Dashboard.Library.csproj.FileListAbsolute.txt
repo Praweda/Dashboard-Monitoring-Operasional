@@ -18,6 +18,7 @@ D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Libra
 D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Library.AssemblyInfoInputs.cache
 D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Library.AssemblyInfo.cs
 D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Library.csproj.CoreCompileInputs.cache
+D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Library.sourcelink.json
 D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Library.dll
 D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\refint\BJB.Dashboard.Library.dll
 D:\dashboard\Library\BJB.Dashboard.Library\obj\Debug\net10.0\BJB.Dashboard.Library.pdb

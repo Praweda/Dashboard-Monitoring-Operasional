@@ -88,8 +88,8 @@ D:\BJB-Dashboard\BJB.Dashboard\obj\Debug\net10.0\BJB.Dashboard.genruntimeconfig.
 D:\BJB-Dashboard\BJB.Dashboard\obj\Debug\net10.0\ref\BJB.Dashboard.dll
 D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\appsettings.Development.json
 D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\appsettings.json
-D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\BJB.Dashboard.staticwebassets.endpoints.json
 D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\BJB.Dashboard.staticwebassets.runtime.json
+D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\BJB.Dashboard.staticwebassets.endpoints.json
 D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\BJB.Dashboard.exe
 D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\BJB.Dashboard.deps.json
 D:\dashboard\BJB.Dashboard\bin\Debug\net10.0\BJB.Dashboard.runtimeconfig.json
@@ -159,6 +159,7 @@ D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\BJB.Dashboard.AssemblyInfo.cs
 D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\BJB.Dashboard.csproj.CoreCompileInputs.cache
 D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\BJB.Dashboard.MvcApplicationPartsAssemblyInfo.cs
 D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\BJB.Dashboard.MvcApplicationPartsAssemblyInfo.cache
+D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\BJB.Dashboard.sourcelink.json
 D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\dashboard\BJB.Dashboard\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

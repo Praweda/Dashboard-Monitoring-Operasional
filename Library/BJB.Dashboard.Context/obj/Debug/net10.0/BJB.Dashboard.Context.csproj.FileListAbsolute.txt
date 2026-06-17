@@ -23,6 +23,7 @@ D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dashboard.Conte
 D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dashboard.Context.AssemblyInfoInputs.cache
 D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dashboard.Context.AssemblyInfo.cs
 D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dashboard.Context.csproj.CoreCompileInputs.cache
+D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dashboard.Context.sourcelink.json
 D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dash.7BD4B7A7.Up2Date
 D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\BJB.Dashboard.Context.dll
 D:\dashboard\Library\BJB.Dashboard.Context\obj\Debug\net10.0\refint\BJB.Dashboard.Context.dll

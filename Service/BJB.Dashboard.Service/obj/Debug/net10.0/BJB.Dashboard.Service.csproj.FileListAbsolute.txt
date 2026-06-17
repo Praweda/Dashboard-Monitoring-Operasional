@@ -31,6 +31,7 @@ D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dashboard.Servi
 D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dashboard.Service.AssemblyInfoInputs.cache
 D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dashboard.Service.AssemblyInfo.cs
 D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dashboard.Service.csproj.CoreCompileInputs.cache
+D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dashboard.Service.sourcelink.json
 D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dash.206AC87B.Up2Date
 D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\BJB.Dashboard.Service.dll
 D:\dashboard\Service\BJB.Dashboard.Service\obj\Debug\net10.0\refint\BJB.Dashboard.Service.dll

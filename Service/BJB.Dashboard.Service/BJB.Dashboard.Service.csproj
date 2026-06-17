@@ -5,6 +5,10 @@
     <ProjectReference Include="..\..\Repository\BJB.Dashboard.Repository\BJB.Dashboard.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\PaymentMonitoring\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

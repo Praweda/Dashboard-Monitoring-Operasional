@@ -6,10 +6,12 @@ using BJB.Dashboard.Library.Configuration;
 using BJB.Dashboard.Repository.Repositories.Base;
 using BJB.Dashboard.Repository.Repositories.DashboardItem;
 using BJB.Dashboard.Repository.Repositories.Payment;
+using BJB.Dashboard.Repository.Repositories.PaymentMonitoring;
 using BJB.Dashboard.Repository.Repositories.PaymentSaga;
 using BJB.Dashboard.Service.Services.Base;
 using BJB.Dashboard.Service.Services.DashboardItem;
 using BJB.Dashboard.Service.Services.Payment;
+using BJB.Dashboard.Service.Services.PaymentMonitoring;
 using BJB.Dashboard.Service.Services.PaymentSaga;
 using Microsoft.EntityFrameworkCore;
 using EfDbContext = Microsoft.EntityFrameworkCore.DbContext;
@@ -61,11 +63,13 @@ builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped<IDashboardItemRepository, DashboardItemRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddScoped<IPaymentSagaRepository, PaymentSagaRepository>();
+builder.Services.AddScoped<IPaymentMonitoringRepository, PaymentMonitoringRepository>();
 
 builder.Services.AddTransient(typeof(IBaseService<>), typeof(BaseService<>));
 builder.Services.AddTransient<IDashboardItemService, DashboardItemService>();
 builder.Services.AddTransient<IPaymentService, PaymentService>();
 builder.Services.AddTransient<IPaymentSagaService, PaymentSagaService>();
+builder.Services.AddTransient<IPaymentMonitoringService, PaymentMonitoringService>();
 
 var app = builder.Build();
 
