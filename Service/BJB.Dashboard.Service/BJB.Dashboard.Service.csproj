@@ -6,6 +6,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Services\PaymentAndHistory\" />
     <Folder Include="Services\PaymentMonitoring\" />
   </ItemGroup>
 

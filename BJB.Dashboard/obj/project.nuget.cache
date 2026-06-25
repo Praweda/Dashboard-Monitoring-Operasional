@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GiMb1Mi64B8=",
+  "dgSpecHash": "tx4Xgk3DsOw=",
   "success": true,
-  "projectFilePath": "D:\\dashboard\\BJB.Dashboard\\BJB.Dashboard.csproj",
+  "projectFilePath": "D:\\Dashboard-Monitoring-Operasional\\BJB.Dashboard\\BJB.Dashboard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj": {}
+    "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj": {}
   },
   "projects": {
-    "D:\\dashboard\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj": {
+    "D:\\Dashboard-Monitoring-Operasional\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dashboard\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj",
+        "projectUniqueName": "D:\\Dashboard-Monitoring-Operasional\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj",
         "projectName": "BJB.Dashboard.Context",
-        "projectPath": "D:\\dashboard\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj",
+        "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj",
         "packagesPath": "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\",
-        "outputPath": "D:\\dashboard\\Library\\BJB.Dashboard.Context\\obj\\",
+        "outputPath": "D:\\Dashboard-Monitoring-Operasional\\Library\\BJB.Dashboard.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
-                "projectPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj"
+              "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
+                "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj"
               }
             }
           }
@@ -364,14 +364,14 @@
         }
       }
     },
-    "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
+    "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
+        "projectUniqueName": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
         "projectName": "BJB.Dashboard.Model",
-        "projectPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
+        "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
         "packagesPath": "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\",
-        "outputPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\obj\\",
+        "outputPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -706,14 +706,14 @@
         }
       }
     },
-    "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj": {
+    "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj",
+        "projectUniqueName": "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj",
         "projectName": "BJB.Dashboard.Repository",
-        "projectPath": "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj",
+        "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj",
         "packagesPath": "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\",
-        "outputPath": "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\obj\\",
+        "outputPath": "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -736,11 +736,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\dashboard\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj": {
-                "projectPath": "D:\\dashboard\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj"
+              "D:\\Dashboard-Monitoring-Operasional\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj": {
+                "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Library\\BJB.Dashboard.Context\\BJB.Dashboard.Context.csproj"
               },
-              "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
-                "projectPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj"
+              "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
+                "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj"
               }
             }
           }

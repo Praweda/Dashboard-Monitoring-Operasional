@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {}
+    "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {}
   },
   "projects": {
-    "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
+    "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
+        "projectUniqueName": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
         "projectName": "BJB.Dashboard.Model",
-        "projectPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
+        "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj",
         "packagesPath": "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\",
-        "outputPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\obj\\",
+        "outputPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
