@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Repositories\PaymentAndHistory\" />
     <Folder Include="Repositories\PaymentMonitoring\" />
   </ItemGroup>
 

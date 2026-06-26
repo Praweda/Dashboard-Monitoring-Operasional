@@ -1738,11 +1738,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dashboard\\Service\\BJB.Dashboard.Service\\BJB.Dashboard.Service.csproj",
+      "projectUniqueName": "D:\\Dashboard-Monitoring-Operasional\\Service\\BJB.Dashboard.Service\\BJB.Dashboard.Service.csproj",
       "projectName": "BJB.Dashboard.Service",
-      "projectPath": "D:\\dashboard\\Service\\BJB.Dashboard.Service\\BJB.Dashboard.Service.csproj",
+      "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Service\\BJB.Dashboard.Service\\BJB.Dashboard.Service.csproj",
       "packagesPath": "C:\\Users\\philip.wanderrienov\\.nuget\\packages\\",
-      "outputPath": "D:\\dashboard\\Service\\BJB.Dashboard.Service\\obj\\",
+      "outputPath": "D:\\Dashboard-Monitoring-Operasional\\Service\\BJB.Dashboard.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1765,11 +1765,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
-              "projectPath": "D:\\dashboard\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj"
+            "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj": {
+              "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Model\\BJB.Dashboard.Model\\BJB.Dashboard.Model.csproj"
             },
-            "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj": {
-              "projectPath": "D:\\dashboard\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj"
+            "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj": {
+              "projectPath": "D:\\Dashboard-Monitoring-Operasional\\Repository\\BJB.Dashboard.Repository\\BJB.Dashboard.Repository.csproj"
             }
           }
         }
