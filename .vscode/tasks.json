@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/BJB.Dashboard.slnx"
+        "${workspaceFolder}/Backend/BJB.Dashboard.slnx"
       ],
       "problemMatcher": "$msCompile"
     }
