@@ -1,5 +1,5 @@
 using BJB.Dashboard.Library.Message.Response;
-using BJB.Dashboard.Service.Services.PaymentAndHistory;
+using BJB.Dashboard.Service.Services.PaymentAndHistorymMonitoring;
 using System.Globalization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,16 +8,16 @@ namespace BJB.Dashboard.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PaymentAndHistoryController : ControllerBase
+    public class PaymentAndHistorymMonitoringController : ControllerBase
     {
-        private readonly ILogger<PaymentAndHistoryController> _logger;
-        private readonly IPaymentAndHistoryService _paymentAndHistoryService;
+        private readonly ILogger<PaymentAndHistorymMonitoringController> _logger;
+        private readonly IPaymentAndHistorymMonitoringService _paymentAndHistorymMonitoringService;
 
-        public PaymentAndHistoryController(ILogger<PaymentAndHistoryController> logger
-                                            , IPaymentAndHistoryService paymentAndHistoryService)
+        public PaymentAndHistorymMonitoringController(ILogger<PaymentAndHistorymMonitoringController> logger
+                                            , IPaymentAndHistorymMonitoringService paymentAndHistorymMonitoringService)
         {
             _logger = logger;
-            _paymentAndHistoryService = paymentAndHistoryService;
+            _paymentAndHistorymMonitoringService = paymentAndHistorymMonitoringService;
         }
 
         [HttpGet("GetAll")]
@@ -25,7 +25,7 @@ namespace BJB.Dashboard.Controllers
         {
             ResponseEntity response = new ResponseEntity();
 
-            var payments = await _paymentAndHistoryService.GetAll();
+            var payments = await _paymentAndHistorymMonitoringService.GetAll();
             response.success = true;
             response.result = payments;
             return Ok(response);
@@ -40,7 +40,7 @@ namespace BJB.Dashboard.Controllers
             }
 
             ResponseEntity response = new ResponseEntity();
-            var payments = await _paymentAndHistoryService.FilterDaily(parsedBusDate);
+            var payments = await _paymentAndHistorymMonitoringService.FilterDaily(parsedBusDate);
             response.success = true;
             response.result = payments;
             return Ok(response);
@@ -55,7 +55,7 @@ namespace BJB.Dashboard.Controllers
             }
 
             ResponseEntity response = new ResponseEntity();
-            var payments = await _paymentAndHistoryService.FilterWeekly(parsedBusDate);
+            var payments = await _paymentAndHistorymMonitoringService.FilterWeekly(parsedBusDate);
             response.success = true;
             response.result = payments;
             return Ok(response);
@@ -70,7 +70,7 @@ namespace BJB.Dashboard.Controllers
             }
 
             ResponseEntity response = new ResponseEntity();
-            var payments = await _paymentAndHistoryService.FilterMonthly(parsedBusDate);
+            var payments = await _paymentAndHistorymMonitoringService.FilterMonthly(parsedBusDate);
             response.success = true;
             response.result = payments;
             return Ok(response);
