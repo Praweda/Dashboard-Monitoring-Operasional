@@ -55,7 +55,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         try
         {
-            return await _entitySet.ToListAsync(CancellationToken.None);
+            return await _entitySet.AsNoTracking().ToListAsync(CancellationToken.None);
         }
         catch (Exception ex)
         {

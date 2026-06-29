@@ -3,31 +3,31 @@ using BJB.Dashboard.Model.Entity;
 using BJB.Dashboard.Repository.Repositories.Base;
 using Microsoft.Extensions.Logging;
 
-namespace BJB.Dashboard.Repository.Repositories.PaymentAndHistorymMonitoring;
+namespace BJB.Dashboard.Repository.Repositories.PaymentAndHistoryMonitoring;
 
-public class PaymentAndHistorymMonitoringRepository : IPaymentAndHistorymMonitoringRepository
+public class PaymentAndHistoryMonitoringRepository : IPaymentAndHistoryMonitoringRepository
 {
-    private readonly ILogger<PaymentAndHistorymMonitoringRepository> _logger;
-    private readonly IBaseRepository<PaymentAndHistorymMonitoringEntity> _baseRepository;
+    private readonly ILogger<PaymentAndHistoryMonitoringRepository> _logger;
+    private readonly IBaseRepository<PaymentAndHistoryMonitoringEntity> _baseRepository;
 
-    public PaymentAndHistorymMonitoringRepository(ILogger<PaymentAndHistorymMonitoringRepository> logger, IBaseRepository<PaymentAndHistorymMonitoringEntity> baseRepository)
+    public PaymentAndHistoryMonitoringRepository(ILogger<PaymentAndHistoryMonitoringRepository> logger, IBaseRepository<PaymentAndHistoryMonitoringEntity> baseRepository)
     {
         _logger = logger;
         _baseRepository = baseRepository;
     }
-    public async Task<IEnumerable<PaymentAndHistorymMonitoringEntity>> GetAll()
+    public async Task<IEnumerable<PaymentAndHistoryMonitoringEntity>> GetAll()
     {
         return await _baseRepository.GetAll();
     }
 
-    public async Task<IEnumerable<PaymentAndHistorymMonitoringEntity>> FilterDaily(DateTime busDate)
+    public async Task<IEnumerable<PaymentAndHistoryMonitoringEntity>> FilterDaily(DateTime busDate)
     {
         var payments = await GetAll();
         return payments.Where(payment => payment.BusDate.HasValue
                                       && payment.BusDate.Value.Date == busDate.Date);
     }
 
-    public async Task<IEnumerable<PaymentAndHistorymMonitoringEntity>> FilterWeekly(DateTime busDate)
+    public async Task<IEnumerable<PaymentAndHistoryMonitoringEntity>> FilterWeekly(DateTime busDate)
     {
         var payments = await GetAll();
         var startDate = busDate.Date.AddDays(-GetDaysFromMonday(busDate));
@@ -38,7 +38,7 @@ public class PaymentAndHistorymMonitoringRepository : IPaymentAndHistorymMonitor
                                       && payment.BusDate.Value.Date < endDate);
     }
 
-    public async Task<IEnumerable<PaymentAndHistorymMonitoringEntity>> FilterMonthly(DateTime busDate)
+    public async Task<IEnumerable<PaymentAndHistoryMonitoringEntity>> FilterMonthly(DateTime busDate)
     {
         var payments = await GetAll();
         var startDate = new DateTime(busDate.Year, busDate.Month, 1);

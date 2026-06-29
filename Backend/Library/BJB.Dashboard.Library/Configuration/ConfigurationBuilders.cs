@@ -9,5 +9,6 @@ public class ConfigurationBuilders
     {
         ConfigurationDictionary.ReadConfig("SqlServerDbContext", configuration.GetSection("ConnectionStrings:SqlServerDbContext").Value ?? throw new InvalidOperationException("SqlServerDbContext is not configured."));
         ConfigurationDictionary.ReadConfig("ApplicationDatabaseEngine", configuration.GetSection("ApplicationConfig:DBEngine").Value ?? throw new InvalidOperationException("DBEngine is not configured."));
+        ConfigurationDictionary.ReadConfig("ApiBaseUrl", configuration.GetSection("Api:BaseUrl").Value ?? throw new InvalidOperationException("BaseUrl is not configured."));
     }
 }

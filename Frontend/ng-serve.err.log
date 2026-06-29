@@ -1,0 +1,3495 @@
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'apiBaseUrl' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:64:63:
+[37m      64 │ ...toryMonitoring[]>>(`${this.[32mapiBaseUrl[37m}/PaymentAndHistorymMonito...
+         ╵                               [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'apiBaseUrl' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:65:63:
+[37m      65 │ ...toryMonitoring[]>>(`${this.[32mapiBaseUrl[37m}/PaymentAndHistorymMonito...
+         ╵                               [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'readonly'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:2:
+[37m      39 │   [32mreadonly[37m outgoingRows: DetailRow[] = [
+         ╵   [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:11:
+[37m      39 │   readonly [32moutgoingRows[37m: DetailRow[] = [
+         ╵            [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'apiBaseUrl' does not exist on type 'AppComponent'. Did you mean 'ApiBaseUrl'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:65:63:
+[37m      65 │ ...toryMonitoring[]>>(`${this.[32mapiBaseUrl[37m}/PaymentAndHistorymMonito...
+         ╵                               [32m~~~~~~~~~~[0m
+
+  'ApiBaseUrl' is declared here.
+
+    src/app/app.component.ts:37:2:
+[37m      37 │   [32mApiBaseUrl[37m =
+         ╵   [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: 'from' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:0:
+[37m      5 │ [32minterface[37m DetailRow {
+        ╵ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:0:
+[37m      5 │ [32minterface[37m DetailRow {
+        ╵ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:10:
+[37m      5 │ interface [32mDetailRow[37m {
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:10:
+[37m      5 │ interface [32mDetailRow[37m {
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:6:8:
+[37m      6 │   date: [32mstring[37m;
+        ╵         [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:7:12:
+[37m      7 │   category: [32mstring[37m;
+        ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:8:10:
+[37m      8 │   amount: [32mstring[37m;
+        ╵           [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:10:
+[37m      9 │   status: [32m'Selesai'[37m | 'Diproses' | 'Tertunda';
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:22:
+[37m      9 │   status: 'Selesai' | [32m'Diproses'[37m | 'Tertunda';
+        ╵                       [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:35:
+[37m      9 │   status: 'Selesai' | 'Diproses' | [32m'Tertunda'[37m;
+        ╵                                    [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'readonly'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:2:
+[37m      40 │   [32mreadonly[37m outgoingRows: DetailRow[] = [
+         ╵   [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:11:
+[37m      40 │   readonly [32moutgoingRows[37m: DetailRow[] = [
+         ╵            [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:40:25:
+[37m      40 │   readonly outgoingRows: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:48:25:
+[37m      48 │   readonly incomingRows: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'apiBaseUrl' does not exist on type 'AppComponent'. Did you mean 'ApiBaseUrl'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:66:63:
+[37m      66 │ ...toryMonitoring[]>>(`${this.[32mapiBaseUrl[37m}/PaymentAndHistorymMonito...
+         ╵                               [32m~~~~~~~~~~[0m
+
+  'ApiBaseUrl' is declared here.
+
+    src/app/app.component.ts:38:2:
+[37m      38 │   [32mApiBaseUrl[37m =
+         ╵   [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: 'from' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:0:
+[37m      5 │ [32minterface[37m DetailRow {
+        ╵ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:0:
+[37m      5 │ [32minterface[37m DetailRow {
+        ╵ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:10:
+[37m      5 │ interface [32mDetailRow[37m {
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:10:
+[37m      5 │ interface [32mDetailRow[37m {
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:6:8:
+[37m      6 │   date: [32mstring[37m;
+        ╵         [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:7:12:
+[37m      7 │   category: [32mstring[37m;
+        ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:8:10:
+[37m      8 │   amount: [32mstring[37m;
+        ╵           [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:10:
+[37m      9 │   status: [32m'Selesai'[37m | 'Diproses' | 'Tertunda';
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:22:
+[37m      9 │   status: 'Selesai' | [32m'Diproses'[37m | 'Tertunda';
+        ╵                       [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:35:
+[37m      9 │   status: 'Selesai' | 'Diproses' | [32m'Tertunda'[37m;
+        ╵                                    [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:25:
+[37m      39 │   readonly outgoingRows: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:47:25:
+[37m      47 │   readonly incomingRows: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'apiBaseUrl' does not exist on type 'AppComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:65:63:
+[37m      65 │ ...toryMonitoring[]>>(`${this.[32mapiBaseUrl[37m}/PaymentAndHistorymMonito...
+         ╵                               [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: 'from' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:0:
+[37m      5 │ [32minterface[37m DetailRow {
+        ╵ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:0:
+[37m      5 │ [32minterface[37m DetailRow {
+        ╵ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:10:
+[37m      5 │ interface [32mDetailRow[37m {
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:5:10:
+[37m      5 │ interface [32mDetailRow[37m {
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:6:8:
+[37m      6 │   date: [32mstring[37m;
+        ╵         [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:7:12:
+[37m      7 │   category: [32mstring[37m;
+        ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:8:10:
+[37m      8 │   amount: [32mstring[37m;
+        ╵           [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:10:
+[37m      9 │   status: [32m'Selesai'[37m | 'Diproses' | 'Tertunda';
+        ╵           [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:22:
+[37m      9 │   status: 'Selesai' | [32m'Diproses'[37m | 'Tertunda';
+        ╵                       [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:9:35:
+[37m      9 │   status: 'Selesai' | 'Diproses' | [32m'Tertunda'[37m;
+        ╵                                    [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:39:25:
+[37m      39 │   readonly outgoingRows: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'DetailRow'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:47:25:
+[37m      47 │   readonly incomingRows: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'GetConfig' does not exist on type 'typeof ConfigurationDictionary'. Did you mean 'getConfig'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app-config.service.ts:10:44:
+[37m      10 │     const baseUrl = ConfigurationDictionary.[32mGetConfig[37m('ApiBaseUrl');
+         ╵                                             [32m~~~~~~~~~[0m
+
+  'getConfig' is declared here.
+
+    src/app/configuration/configuration-dictionary.ts:8:9:
+[37m      8 │   static [32mgetConfig[37m(key: string): string | undefined {
+        ╵          [32m~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'readConfig' does not exist on type 'typeof ConfigurationDictionary'. Did you mean 'ReadConfig'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/configuration/configuration-builders.ts:17:28:
+[37m      17 │     ConfigurationDictionary.[32mreadConfig[37m('ApiBaseUrl', apiBaseUrl);
+         ╵                             [32m~~~~~~~~~~[0m
+
+  'ReadConfig' is declared here.
+
+    src/app/configuration/configuration-dictionary.ts:4:9:
+[37m      4 │   static [32mReadConfig[37m(key: string, value: string): void {
+        ╵          [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:28:15:
+[37m      28 │   templateUrl: [32m'./app.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'DateTime' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:7:9:
+[37m      7 │   public [32mDateTime[37m? BusDate { get; set; }
+        ╵          [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:7:19:
+[37m      7 │   public DateTime? [32mBusDate[37m { get; set; }
+        ╵                    [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'BusDate'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:7:19:
+[37m      7 │   public DateTime? [32mBusDate[37m { get; set; }
+        ╵                    [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'get'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:7:29:
+[37m      7 │   public DateTime? BusDate { [32mget[37m; set; }
+        ╵                              [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'set'. Did you mean 'Set'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:7:34:
+[37m      7 │   public DateTime? BusDate { get; [32mset[37m; }
+        ╵                                   [32m~~~[0m
+
+  'Set' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:119:12:
+[37m      119 │ declare var [32mSet[37m: SetConstructor;
+          ╵             [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:8:4:
+[37m      8 │     [32mpublic[37m string? IO { get; set; }
+        ╵     [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:8:11:
+[37m      8 │     public [32mstring[37m? IO { get; set; }
+        ╵            [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'IO'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:8:19:
+[37m      8 │     public string? [32mIO[37m { get; set; }
+        ╵                    [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ':' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:8:22:
+[37m      8 │     public string? IO [32m{[37m get; set; }
+        ╵                       [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'get'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:8:24:
+[37m      8 │     public string? IO { [32mget[37m; set; }
+        ╵                         [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'set'. Did you mean 'Set'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:8:29:
+[37m      8 │     public string? IO { get; [32mset[37m; }
+        ╵                              [32m~~~[0m
+
+  'Set' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:119:12:
+[37m      119 │ declare var [32mSet[37m: SetConstructor;
+          ╵             [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:9:4:
+[37m      9 │     [32mpublic[37m decimal? TotalAmount { get; set; }
+        ╵     [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'decimal'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:9:11:
+[37m      9 │     public [32mdecimal[37m? TotalAmount { get; set; }
+        ╵            [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'TotalAmount'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:9:20:
+[37m      9 │     public decimal? [32mTotalAmount[37m { get; set; }
+        ╵                     [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ':' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:9:32:
+[37m      9 │     public decimal? TotalAmount [32m{[37m get; set; }
+        ╵                                 [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'get'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:9:34:
+[37m      9 │     public decimal? TotalAmount { [32mget[37m; set; }
+        ╵                                   [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'set'. Did you mean 'Set'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:9:39:
+[37m      9 │     public decimal? TotalAmount { get; [32mset[37m; }
+        ╵                                        [32m~~~[0m
+
+  'Set' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:119:12:
+[37m      119 │ declare var [32mSet[37m: SetConstructor;
+          ╵             [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:10:4:
+[37m      10 │     [32mpublic[37m int? Volume { get; set; }
+         ╵     [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'int'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:10:11:
+[37m      10 │     public [32mint[37m? Volume { get; set; }
+         ╵            [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'Volume'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:10:16:
+[37m      10 │     public int? [32mVolume[37m { get; set; }
+         ╵                 [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ':' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:10:23:
+[37m      10 │     public int? Volume [32m{[37m get; set; }
+         ╵                        [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'get'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:10:25:
+[37m      10 │     public int? Volume { [32mget[37m; set; }
+         ╵                          [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'set'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:10:30:
+[37m      10 │     public int? Volume { get; [32mset[37m; }
+         ╵                               [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:11:0:
+[37m      11 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'BusDate' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:12:2:
+[37m      12 │   [32mBusDate[37m
+         ╵   [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'BusDate' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:12:2:
+[37m      12 │   [32mBusDate[37m
+         ╵   [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1110: Type expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:13:0:
+[37m      13 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'date'. Did you mean 'Date'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:12:11:
+[37m      12 │   BusDate: [32mdate[37m
+         ╵            [32m~~~~[0m
+
+  'Date' is declared here.
+
+    node_modules/typescript/lib/lib.es5.d.ts:961:12:
+[37m      961 │ declare var [32mDate[37m: DateConstructor;
+          ╵             [32m~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'datetime'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:12:11:
+[37m      12 │   BusDate: [32mdatetime[37m
+         ╵            [32m~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'Datetim'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:12:11:
+[37m      12 │   BusDate: [32mDatetim[37m
+         ╵            [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1110: Type expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:15:0:
+[37m      15 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'decimal'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:14:15:
+[37m      14 │   TotalAmount: [32mdecimal[37m
+         ╵                [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1110: Type expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:16:0:
+[37m      16 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'int'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:15:10:
+[37m      15 │   Volume: [32mint[37m
+         ╵           [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'integer'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:15:10:
+[37m      15 │   Volume: [32minteger[37m
+         ╵           [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'int'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:15:10:
+[37m      15 │   Volume: [32mint[37m
+         ╵           [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'int'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:15:10:
+[37m      15 │   Volume: [32mint[37m | null;
+         ╵           [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'int'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history-monitoring.model.ts:15:10:
+[37m      15 │   Volume: [32mint[37m | null;
+         ╵           [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'listDataOutgoing' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:19:2:
+[37m      19 │   [32mlistDataOutgoing[37m
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'readonly'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:2:
+[37m      21 │   [32mreadonly[37m dataOutgoing: DetailRow[] = [
+         ╵   [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:11:
+[37m      21 │   readonly [32mdataOutgoing[37m: DetailRow[] = [
+         ╵            [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1068: Unexpected token. A constructor, method, accessor, or property was expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:18:23:
+[37m      18 │   apiErrorMessage = '';[32m=[37m
+         ╵                        [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'listDataOutgoing' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:19:2:
+[37m      19 │   [32mlistDataOutgoing[37m
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mAngular compilation emit failed.[0m [1m[35m[plugin angular-compiler][0m
+
+  Error: Debug Failure.
+      at visitEachChildOfIndexSignatureDeclaration (D:\Dashboard-Monitoring-Operasional\Frontend\node_modules\typescript\lib\typescript.js:95476:13)
+      at Object.visitEachChild (D:\Dashboard-Monitoring-Operasional\Frontend\node_modules\typescript\lib\typescript.js:95332:33)
+      at IvyCompilationVisitor._visit (file:///D:/Dashboard-Monitoring-Operasional/Frontend/node_modules/@angular/compiler-cli/bundles/chunk-XMX6JBER.js:6603:17)
+      at file:///D:/Dashboard-Monitoring-Operasional/Frontend/node_modules/@angular/compiler-cli/bundles/chunk-XMX6JBER.js:6603:63
+      at visitArrayWorker (D:\Dashboard-Monitoring-Operasional\Frontend\node_modules\typescript\lib\typescript.js:95146:49)
+      at visitNodes2 (D:\Dashboard-Monitoring-Operasional\Frontend\node_modules\typescript\lib\typescript.js:95117:19)
+      at visitEachChildOfClassDeclaration (D:\Dashboard-Monitoring-Operasional\Frontend\node_modules\typescript\lib\typescript.js:96060:7)
+      at Object.visitEachChild (D:\Dashboard-Monitoring-Operasional\Frontend\node_modules\typescript\lib\typescript.js:95332:33)
+      at IvyCompilationVisitor._visit (file:///D:/Dashboard-Monitoring-Operasional/Frontend/node_modules/@angular/compiler-cli/bundles/chunk-XMX6JBER.js:6603:17)
+      at file:///D:/Dashboard-Monitoring-Operasional/Frontend/node_modules/@angular/compiler-cli/bundles/chunk-XMX6JBER.js:6603:63
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'dataOutgoing'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:11:
+[37m      21 │   readonly [32mdataOutgoing[37m: DetailRow[] = [
+         ╵            [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1442: Expected '=' for property initializer.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:23:
+[37m      21 │   readonly dataOutgoing[32m:[37m DetailRow[] = [
+         ╵                        [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1434: Unexpected keyword or identifier.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:25:
+[37m      21 │   readonly dataOutgoing: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'DetailRow' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:25:
+[37m      21 │   readonly dataOutgoing: [32mDetailRow[37m[] = [
+         ╵                          [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:37:
+[37m      21 │   readonly dataOutgoing: DetailRow[] [32m=[37m [
+         ╵                                      [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2464: A computed property name must be of type 'string', 'number', 'symbol', or 'any'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:39:
+[37m      21 │   readonly dataOutgoing: DetailRow[] = [32m[[37m
+         ╵                                        [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member '[
+    { date: '10 Okt 2023', category: 'Produk A', amount: '2.500.000', status: 'Selesai' },
+    { date: '11 Okt 2023', category: 'Produk B', amount: '1.250.000', status: 'Diproses' },
+    { date: '12 Okt 2023', category: 'Produk A', amount: '3.100.000', status: 'Selesai' },
+    { date: '13 Okt 2023', category: 'Lainnya', amount: '850.000', status: 'Tertunda' },
+    { date: '14 Okt 2023', category: 'Produk B', amount: '4.200.000', status: 'Selesai' }
+  ]' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:39:
+[37m      21 │   readonly dataOutgoing: DetailRow[] = [32m[[37m
+         ╵                                        [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:4:
+[37m      22 │     [32m{ date: '10 Okt 2023', category: 'Produk A', amount: '2.500.00[37m...
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:4:
+[37m      22 │     [32m{ date: '10 Okt 2023', category: 'Produk A', amount: '2.500.00[37m...
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:4:
+[37m      22 │     [32m{ date: '10 Okt 2023', category: 'Produk A', amount: '2.500.00[37m...
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:4:
+[37m      22 │     [32m{ date: '10 Okt 2023', category: 'Produk A', amount: '2.500.00[37m...
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2564: Property 'listDataOutgoing' has no initializer and is not definitely assigned in the constructor.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:19:2:
+[37m      19 │   [32mlistDataOutgoing[37m: PaymentAndHistoryMonitoring
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2564: Property 'listDataOutgoing' has no initializer and is not definitely assigned in the constructor.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:19:2:
+[37m      19 │   [32mlistDataOutgoing[37m: PaymentAndHistoryMonitoring[]
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataOutgoing" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:79:4:
+[37m      79 │     [32mlistDataOutgoing[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataOutgoing" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:78:4:
+[37m      78 │     [32mlistDataOutgoing[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataOutgoing'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:20:2:
+[37m      20 │   [32mlistDataOutgoing[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'outgoingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:84:23:
+[37m      84 │           @for (row of [32moutgoingRows[37m; track row.date + row.amount) {
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "outgoingRows" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:87:4:
+[37m      87 │     [32moutgoingRows[37m = [
+         ╵     [32m~~~~~~~~~~~~[0m
+
+  The original member "outgoingRows" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:80:4:
+[37m      80 │     [32moutgoingRows[37m = [
+         ╵     [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'incomingRows' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:112:23:
+[37m      112 │           @for (row of [32mincomingRows[37m; track row.date + row.amount) {
+          ╵                        [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:11:15:
+[37m      11 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'outgoingRows'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:30:11:
+[37m      30 │   readonly [32moutgoingRows[37m: DetailRow[] = [
+         ╵            [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'private' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:2:
+[37m      66 │   [32mprivate[37m
+         ╵   [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'loadDataOutgoin' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mloadDataOutgoin[37m
+         ╵           [32m~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'l' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32ml[37m
+         ╵           [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'load' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mload[37m
+         ╵           [32m~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'loadPaymentAndHistoryMonitoring' does not exist on type 'DashboardComponent'. Did you mean 'paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:42:9:
+[37m      42 │     this.[32mloadPaymentAndHistoryMonitoring[37m();
+         ╵          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  'paymentAndHistoryMonitoring' is declared here.
+
+    src/app/features/dashboard/dashboard.component.ts:17:2:
+[37m      17 │   [32mpaymentAndHistoryMonitoring[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'load' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mload[37m
+         ╵           [32m~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'load' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mload[37m
+         ╵           [32m~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'loadDataOutgoing' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mloadDataOutgoing[37m
+         ╵           [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1434: Unexpected keyword or identifier.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mloadDataOutgoing[37m {
+         ╵           [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'loadDataOutgoing' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mloadDataOutgoing[37m {
+         ╵           [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1068: Unexpected token. A constructor, method, accessor, or property was expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:27:
+[37m      66 │   private loadDataOutgoing [32m{[37m
+         ╵                            [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:0:
+[37m      69 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7010: 'loadDataOutgoing', which lacks return-type annotation, implicitly has an 'any' return type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mloadDataOutgoing[37m() async {
+         ╵           [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1144: '{' or ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:29:
+[37m      66 │   private loadDataOutgoing() [32masync[37m {
+         ╵                              [32m~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'async'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:29:
+[37m      66 │   private loadDataOutgoing() [32masync[37m {
+         ╵                              [32m~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:0:
+[37m      69 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7010: 'loadDataOutgoing', which lacks return-type annotation, implicitly has an 'any' return type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:10:
+[37m      66 │   private [32mloadDataOutgoing[37m() async Tas {
+         ╵           [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1144: '{' or ';' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:29:
+[37m      66 │   private loadDataOutgoing() [32masync[37m Tas {
+         ╵                              [32m~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1434: Unexpected keyword or identifier.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:35:
+[37m      66 │   private loadDataOutgoing() async [32mTas[37m {
+         ╵                                    [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'Tas' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:35:
+[37m      66 │   private loadDataOutgoing() async [32mTas[37m {
+         ╵                                    [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1068: Unexpected token. A constructor, method, accessor, or property was expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:39:
+[37m      66 │   private loadDataOutgoing() async Tas [32m{[37m
+         ╵                                        [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:0:
+[37m      69 │ [32m}[37m
+         ╵ [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected "(" but found ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:118:13:
+[37m      118 │     async Tas[32m;[37m
+          │              [32m^[37m
+          ╵              [32m([0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1042: 'async' modifier cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:2:
+[37m      66 │   [32masync[37m loadDataOutgoing
+         ╵   [32m~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'loadDataOutgoing' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:8:
+[37m      66 │   async [32mloadDataOutgoing[37m
+         ╵         [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected "(" but found ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:118:26:
+[37m      118 │     async loadDataOutgoing[32m;[37m
+          │                           [32m^[37m
+          ╵                           [32m([0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:8:
+[37m      66 │   async [32mloadDataOutgoing[37m():
+         ╵         [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1110: Type expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:67:0:
+[37m      67 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:8:
+[37m      66 │   async [32mloadDataOutgoing[37m(): Promise
+         ╵         [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2314: Generic type 'Promise<T>' requires 1 type argument(s).[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:28:
+[37m      66 │   async loadDataOutgoing(): [32mPromise[37m
+         ╵                             [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:8:
+[37m      66 │   async [32mloadDataOutgoing[37m(): Promise
+         ╵         [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2314: Generic type 'Promise<T>' requires 1 type argument(s).[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:28:
+[37m      66 │   async loadDataOutgoing(): [32mPromise[37m
+         ╵                             [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:66:8:
+[37m      66 │   async [32mloadDataOutgoing[37m(): Promise<void>
+         ╵         [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1472: 'catch' or 'finally' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:2:
+[37m      70 │   [32m}[37m
+         ╵   [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:11:
+[37m      70 │     catch ([32m)[37m {
+         ╵            [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ")"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:15:
+[37m      121 │         catch ([32m)[37m {
+          ╵                [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:10:
+[37m      70 │     catch([32m)[37m {
+         ╵           [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ")"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:15:
+[37m      121 │         catch ([32m)[37m {
+          ╵                [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ')' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:17:
+[37m      70 │     catch(console[32m.[37merror();
+         ╵                  [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'error'. Did you mean 'Error'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:18:
+[37m      70 │     catch(console.[32merror[37m();
+         ╵                   [32m~~~~~[0m
+
+  'Error' is declared here.
+
+    node_modules/typescript/lib/lib.es5.d.ts:1087:12:
+[37m      1087 │ declare var [32mError[37m: ErrorConstructor;
+           ╵             [32m~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:71:4:
+[37m      71 │     [32m)[37m {
+         ╵     [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m =
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1109: Expression expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:4:
+[37m      69 │     [32m}[37m
+         ╵     [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:12:
+[37m      121 │             [32m;[37m
+          ╵             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m =
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1109: Expression expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:4:
+[37m      69 │     [32m}[37m
+         ╵     [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:12:
+[37m      121 │             [32m;[37m
+          ╵             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:4:
+[37m      69 │     [32m}[37m
+         ╵     [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:12:
+[37m      121 │             [32m;[37m
+          ╵             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:4:
+[37m      69 │     [32m}[37m
+         ╵     [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:12:
+[37m      121 │             [32m;[37m
+          ╵             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:4:
+[37m      69 │     [32m}[37m
+         ╵     [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ";"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:12:
+[37m      121 │             [32m;[37m
+          ╵             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter(x)
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter(x)
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'x'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:60:
+[37m      68 │       listDataOutgoing = paymentAndHistoryMonitoring.filter([32mx[37m)
+         ╵                                                             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter(x => x)
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter(x => x)
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'x' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:60:
+[37m      68 │       listDataOutgoing = paymentAndHistoryMonitoring.filter([32mx[37m => x)
+         ╵                                                             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter(p => p.)
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │       listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter(p => p.)
+         ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'p' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:60:
+[37m      68 │       listDataOutgoing = paymentAndHistoryMonitoring.filter([32mp[37m => p.)
+         ╵                                                             [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:67:
+[37m      68 │       listDataOutgoing = paymentAndHistoryMonitoring.filter(p => p.[32m)[37m
+         ╵                                                                    [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ")"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:120:73:
+[37m      120 │ ...  listDataOutgoing = paymentAndHistoryMonitoring.filter(p => p.[32m)[37m;
+          ╵                                                                   [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter(p => p...
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │ ...  listDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter(p => p.IO)
+         ╵                         [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'p' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:60:
+[37m      68 │ ...  listDataOutgoing = paymentAndHistoryMonitoring.filter([32mp[37m => p.IO)
+         ╵                                                            [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter(p => p...
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │ ...istDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter(p => p.IO ...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'p' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:60:
+[37m      68 │ ...oing = paymentAndHistoryMonitoring.filter([32mp[37m => p.IO == "Outgoing")
+         ╵                                              [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = paymentAndHistoryMonitoring.filter(p => p...
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'paymentAndHistoryMonitoring'. Did you mean the instance member 'this.paymentAndHistoryMonitoring'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:25:
+[37m      68 │ ...istDataOutgoing = [32mpaymentAndHistoryMonitoring[37m.filter(p => p.IO ...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'p' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:60:
+[37m      68 │ ...ing = paymentAndHistoryMonitoring.filter([32mp[37m => p.IO == "Outgoing");
+         ╵                                             [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'listDataOutgoing'. Did you mean the instance member 'this.listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:68:6:
+[37m      68 │       [32mlistDataOutgoing[37m = this.paymentAndHistoryMonitoring.filter(p...
+         ╵       [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryMonitoring'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:89:
+[37m      69 │ ...AndHistoryMonitoring.filter(payment => payment.[32mio[37m === 'Outgoing');
+         ╵                                                   [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history-monitoring.model.ts:3:2:
+[37m      3 │   [32mIO[37m: string | null;
+        ╵   [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:23:
+[37m      70 │       console.log(this.[32m)[37m;
+         ╵                        [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ")"[0m
+
+    src/app/features/dashboard/dashboard.component.ts:122:29:
+[37m      122 │             console.log(this.[32m)[37m;
+          ╵                              [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1109: Expression expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:93:
+[37m      69 │ ...ndHistoryMonitoring.filter(payment => payment.IO? [32m===[37m 'outgoing');
+         ╵                                                      [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ':' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:107:
+[37m      69 │ ...ndHistoryMonitoring.filter(payment => payment.IO? === 'outgoing'[32m)[37m;
+         ╵                                                                    [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected "==="[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:101:
+[37m      121 │ ...oryMonitoring.filter(payment => payment.IO ?  [32m===[37m 'outgoing' : );
+          ╵                                                  [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1109: Expression expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:93:
+[37m      69 │ ...ndHistoryMonitoring.filter(payment => payment.IO? [32m===[37m 'Outgoing');
+         ╵                                                      [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ':' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:107:
+[37m      69 │ ...ndHistoryMonitoring.filter(payment => payment.IO? === 'Outgoing'[32m)[37m;
+         ╵                                                                    [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mUnexpected "==="[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:101:
+[37m      121 │ ...oryMonitoring.filter(payment => payment.IO ?  [32m===[37m 'Outgoing' : );
+          ╵                                                  [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:94:
+[37m      69 │ ...dHistoryMonitoring.filter(payment => payment.IO?. [32m===[37m 'Outgoing');
+         ╵                                                      [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found "==="[0m
+
+    src/app/features/dashboard/dashboard.component.ts:121:100:
+[37m      121 │ ...HistoryMonitoring.filter(payment => payment.IO?. [32m===[37m 'Outgoing');
+          ╵                                                     [32m~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'to' does not exist on type 'string'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:93:
+[37m      69 │ ...istoryMonitoring.filter(payment => payment.IO?.[32mto[37m === 'Outgoing');
+         ╵                                                   [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2367: This comparison appears to be unintentional because the types '(() => string) | undefined' and 'string' have no overlap.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:81:
+[37m      69 │ ...Monitoring.filter(payment => [32mpayment.IO?.toString === 'Outgoing'[37m);
+         ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'IO' does not exist on type 'PaymentAndHistoryMonitoring'. Did you mean 'io'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:69:89:
+[37m      69 │ ...nitoring.filter(payment => payment.[32mIO[37m?.toString() === 'Outgoing');
+         ╵                                       [32m~~[0m
+
+  'io' is declared here.
+
+    src/app/models/payment-and-history-monitoring.model.ts:3:2:
+[37m      3 │   [32mio[37m: string | null;
+        ╵   [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ',' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:70:38:
+[37m      70 │       console.log("list data outoing:"[32mthis[37m.listDataOutgoing);
+         ╵                                       [32m~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "loadDataOutgoing" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:129:4:
+[37m      129 │     [32mloadDataOutgoing[37m() {
+          ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "loadDataOutgoing" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:119:4:
+[37m      119 │     [32mloadDataOutgoing[37m() {
+          ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2393: Duplicate function implementation.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:67:2:
+[37m      67 │   [32mloadDataOutgoing[37m(): void {
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2393: Duplicate function implementation.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:78:2:
+[37m      78 │   [32mloadDataOutgoing[37m(): void {
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataIncoming" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:80:4:
+[37m      80 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataIncoming" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:79:4:
+[37m      79 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataIncoming" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:81:4:
+[37m      81 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataIncoming" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:80:4:
+[37m      80 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataIncoming'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:2:
+[37m      21 │   [32mlistDataIncoming[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataIncoming'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:2:
+[37m      22 │   [32mlistDataIncoming[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataIncoming" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:81:4:
+[37m      81 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataIncoming" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:79:4:
+[37m      79 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataIncoming'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:2:
+[37m      22 │   [32mlistDataIncoming[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataOutgoing" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:80:4:
+[37m      80 │     [32mlistDataOutgoing[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataOutgoing" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:78:4:
+[37m      78 │     [32mlistDataOutgoing[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataIncoming" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:81:4:
+[37m      81 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataIncoming" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:79:4:
+[37m      79 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataOutgoing'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:2:
+[37m      21 │   [32mlistDataOutgoing[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataIncoming'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:2:
+[37m      22 │   [32mlistDataIncoming[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataIncoming" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:81:4:
+[37m      81 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataIncoming" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:79:4:
+[37m      79 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataIncoming'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:2:
+[37m      22 │   [32mlistDataIncoming[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'loadDataOutgoing' does not exist on type 'DashboardComponent'. Did you mean 'listDataOutgoing'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:57:15:
+[37m      57 │           this.[32mloadDataOutgoing[37m();
+         ╵                [32m~~~~~~~~~~~~~~~~[0m
+
+  'listDataOutgoing' is declared here.
+
+    src/app/features/dashboard/dashboard.component.ts:21:2:
+[37m      21 │   [32mlistDataOutgoing[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'loadDataIncoming' does not exist on type 'DashboardComponent'. Did you mean 'listDataIncoming'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:58:15:
+[37m      58 │           this.[32mloadDataIncoming[37m();
+         ╵                [32m~~~~~~~~~~~~~~~~[0m
+
+  'listDataIncoming' is declared here.
+
+    src/app/features/dashboard/dashboard.component.ts:22:2:
+[37m      22 │   [32mlistDataIncoming[37m: PaymentAndHistoryMonitoring[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'GetAllData' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:44:9:
+[37m      44 │     this.[32mGetAllData[37m();
+         ╵          [32m~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'pr' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:51:2:
+[37m      51 │   [32mpr[37m
+         ╵   [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'GetAllDataPayment' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:51:10:
+[37m      51 │   private [32mGetAllDataPayment[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'GetAllDataPaymentAndHistory' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:51:10:
+[37m      51 │   private [32mGetAllDataPaymentAndHistory[37m
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'GetAllDataMonitoring' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:44:9:
+[37m      44 │     this.[32mGetAllDataMonitoring[37m();
+         ╵          [32m~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2724: '"../../models/payment-and-history-monitoring.model"' has no exported member named 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:6:9:
+[37m      6 │ import { [32mPaymentAndHistoryMonitoring[37m } from '../../models/payment-a...
+        ╵          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:17:31:
+[37m      17 │   paymentAndHistoryMonitoring: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:19:27:
+[37m      19 │   listDataMonitorOutgoing: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:20:27:
+[37m      20 │   listDataMonitorIncoming: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:20:
+[37m      21 │   listDataOutgoing: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:20:
+[37m      22 │   listDataIncoming: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:54:23:
+[37m      54 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:73:23:
+[37m      73 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:17:31:
+[37m      17 │   paymentAndHistoryMonitoring: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:19:27:
+[37m      19 │   listDataMonitorOutgoing: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:20:27:
+[37m      20 │   listDataMonitorIncoming: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:21:20:
+[37m      21 │   listDataOutgoing: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:22:20:
+[37m      22 │   listDataIncoming: [32mPaymentAndHistoryMonitoring[37m[] = [];
+         ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:54:23:
+[37m      54 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:73:23:
+[37m      73 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:54:23:
+[37m      54 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:73:23:
+[37m      73 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'PaymentAndHistoryMonitoring'. Did you mean 'PaymentAndHistoryMonitoringModel'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:73:23:
+[37m      73 │ ... .get<ApiResponse<[32mPaymentAndHistoryMonitoring[37m[]>>(`${this.appCo...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"./features/dashboard/dashboard.component"' has no exported member 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:2:9:
+[37m      2 │ import { [32mDashboardComponent[37m } from './features/dashboard/dashboard....
+        ╵          [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: 'from' expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:9:0:
+[37m      9 │ [32m@[37mComponent({
+        ╵ [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:15:13:
+[37m      15 │ export class [32mDashboardComponent[37m {
+         ╵              [32m~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"./features/dashboard/dashboard.component"' has no exported member 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:2:9:
+[37m      2 │ import { [32mDashboardComponent[37m } from './features/dashboard/dashboard....
+        ╵          [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:15:13:
+[37m      15 │ export class [32mDashboardComponent[37m {
+         ╵              [32m~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"./features/dashboard/dashboard.component"' has no exported member 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:2:9:
+[37m      2 │ import { [32mDashboardComponent[37m } from './features/dashboard/dashboard....
+        ╵          [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:15:13:
+[37m      15 │ export class [32mDashboardComponent[37m {
+         ╵              [32m~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"../../models/payment-and-history-monitoring.model"' has no exported member 'PaymentAndHistoryModel'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:7:9:
+[37m      7 │ import { [32mPaymentAndHistoryModel[37m } from '../../models/payment-and-hi...
+        ╵          [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'listda' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:11:
+[37m      93 │       this.[32mlistda[37m = this.paymentAndHistoryMonitoring.filter(paymen...
+         ╵            [32m~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:93:6:
+[37m      93 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "listDataIncoming" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:81:4:
+[37m      81 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "listDataIncoming" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:80:4:
+[37m      80 │     [32mlistDataIncoming[37m = [];
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'listDataIncoming'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:23:2:
+[37m      23 │   [32mlistDataIncoming[37m: PaymentAndHistoryModel[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryModel[]' is not assignable to type 'PaymentAndHistoryMonitoringModel[]'.
+  Type 'PaymentAndHistoryModel' is missing the following properties from type 'PaymentAndHistoryMonitoringModel': busDate, io, totalAmount, volume[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:59:10:
+[37m      59 │           [32mthis.paymentAndHistoryMonitoring[37m = response.result ?? [];
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'string' is not assignable to type '() => void'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:62:10:
+[37m      62 │           [32mthis.loadDataOutgoing[37m = '';
+         ╵           [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'loadDataIncoming' does not exist on type 'DashboardComponent'. Did you mean 'listDataIncoming'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:61:15:
+[37m      61 │           this.[32mloadDataIncoming[37m();
+         ╵                [32m~~~~~~~~~~~~~~~~[0m
+
+  'listDataIncoming' is declared here.
+
+    src/app/features/dashboard/dashboard.component.ts:23:2:
+[37m      23 │   [32mlistDataIncoming[37m: PaymentAndHistoryModel[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "loadDataOutgoing" in class body[0m [duplicate-class-member]
+
+    src/app/features/dashboard/dashboard.component.ts:152:4:
+[37m      152 │     [32mloadDataOutgoing[37m() {
+          ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+  The original member "loadDataOutgoing" is here:
+
+    src/app/features/dashboard/dashboard.component.ts:142:4:
+[37m      142 │     [32mloadDataOutgoing[37m() {
+          ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'loadDataIncoming' does not exist on type 'DashboardComponent'. Did you mean 'listDataIncoming'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:61:15:
+[37m      61 │           this.[32mloadDataIncoming[37m();
+         ╵                [32m~~~~~~~~~~~~~~~~[0m
+
+  'listDataIncoming' is declared here.
+
+    src/app/features/dashboard/dashboard.component.ts:23:2:
+[37m      23 │   [32mlistDataIncoming[37m: PaymentAndHistoryModel[] = [];
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2393: Duplicate function implementation.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:92:2:
+[37m      92 │   [32mloadDataOutgoing[37m(): void {
+         ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2393: Duplicate function implementation.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:103:2:
+[37m      103 │   [32mloadDataOutgoing[37m(): void {
+          ╵   [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:6:
+[37m      105 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fi...
+          ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:6:
+[37m      105 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fi...
+          ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:6:
+[37m      105 │       [32mthis.listDataIncoming[37m = this.paymentAndHistoryMonitoring.fi...
+          ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:6:
+[37m      105 │       [32mthis.listDataIncoming[37m = this.paymentAndHistoryMonitoring.fi...
+          ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:6:
+[37m      94 │       [32mthis.listDataOutgoing[37m = this.paymentAndHistoryMonitoring.fil...
+         ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:6:
+[37m      105 │       [32mthis.listDataIncoming[37m = this.paymentAndHistoryMonitoring.fi...
+          ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:79:
+[37m      94 │ ...story.filter(payment => payment.[32mio[37m?.toLowerCase() === 'outgoing');
+         ╵                                    [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mIO[37m: string | null
+        ╵     [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2322: Type 'PaymentAndHistoryMonitoringModel[]' is not assignable to type 'PaymentAndHistoryModel[]'.
+  Type 'PaymentAndHistoryMonitoringModel' is missing the following properties from type 'PaymentAndHistoryModel': Trn, RelTrn, BusDate, SettleDate, and 36 more.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:6:
+[37m      105 │       [32mthis.listDataIncoming[37m = this.paymentAndHistoryMonitoring.fi...
+          ╵       [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:79:
+[37m      94 │ ...story.filter(payment => payment.[32mio[37m?.toLowerCase() === 'outgoing');
+         ╵                                    [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mIO[37m: string | null
+        ╵     [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:79:
+[37m      105 │ ...tory.filter(payment => payment.[32mio[37m?.toLowerCase() === 'incoming');
+          ╵                                   [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mIO[37m: string | null
+        ╵     [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:79:
+[37m      94 │ ...story.filter(payment => payment.[32mio[37m?.toLowerCase() === 'outgoing');
+         ╵                                    [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mIO[37m: string | null
+        ╵     [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:79:
+[37m      105 │ ...tory.filter(payment => payment.[32mio[37m?.toLowerCase() === 'incoming');
+          ╵                                   [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mIO[37m: string | null
+        ╵     [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'io' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'IO'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:79:
+[37m      105 │ ...tory.filter(payment => payment.[32mio[37m?.toLowerCase() === 'incoming');
+          ╵                                   [32m~~[0m
+
+  'IO' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mIO[37m: string | null
+        ╵     [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'IO' does not exist on type 'PaymentAndHistoryModel'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:79:
+[37m      94 │ ...story.filter(payment => payment.[32mIO[37m?.toLowerCase() === 'outgoing');
+         ╵                                    [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'IO' does not exist on type 'PaymentAndHistoryModel'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:79:
+[37m      105 │ ...tory.filter(payment => payment.[32mIO[37m?.toLowerCase() === 'incoming');
+          ╵                                   [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1131: Property or signature expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32m:[37m string | null
+        ╵     [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1131: Property or signature expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:6:6:
+[37m      6 │     : [32mstring[37m | null
+        ╵       [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:6:6:
+[37m      6 │     : [32mstring[37m | null
+        ╵       [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:6:15:
+[37m      6 │     : string | [32mnull[37m
+        ╵                [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:7:20:
+[37m      7 │     DebPartiClient: [32mstring[37m | null
+        ╵                     [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:7:29:
+[37m      7 │     DebPartiClient: string | [32mnull[37m
+        ╵                              [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:8:23:
+[37m      8 │     AccDebPartiClient: [32mstring[37m | null
+        ╵                        [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:8:32:
+[37m      8 │     AccDebPartiClient: string | [32mnull[37m
+        ╵                                 [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:9:19:
+[37m      9 │     CrPartiClient: [32mstring[37m | null
+        ╵                    [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:9:28:
+[37m      9 │     CrPartiClient: string | [32mnull[37m
+        ╵                             [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:10:22:
+[37m      10 │     AccCrPartiClient: [32mstring[37m | null
+         ╵                       [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:10:31:
+[37m      10 │     AccCrPartiClient: string | [32mnull[37m
+         ╵                                [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:11:16:
+[37m      11 │     FromMember: [32mstring[37m | null
+         ╵                 [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:11:25:
+[37m      11 │     FromMember: string | [32mnull[37m
+         ╵                          [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:12:14:
+[37m      12 │     ToMember: [32mstring[37m | null
+         ╵               [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:12:23:
+[37m      12 │     ToMember: string | [32mnull[37m
+         ╵                        [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:13:16:
+[37m      13 │     DebAccount: [32mstring[37m | null
+         ╵                 [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:13:25:
+[37m      13 │     DebAccount: string | [32mnull[37m
+         ╵                          [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:14:23:
+[37m      14 │     DebAccountOriName: [32mstring[37m | null
+         ╵                        [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:14:32:
+[37m      14 │     DebAccountOriName: string | [32mnull[37m
+         ╵                                 [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:15:15:
+[37m      15 │     CrAccount: [32mstring[37m | null
+         ╵                [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:15:24:
+[37m      15 │     CrAccount: string | [32mnull[37m
+         ╵                         [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'number' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:16:12:
+[37m      16 │     Amount: [32mnumber[37m | null
+         ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:16:21:
+[37m      16 │     Amount: number | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:17:14:
+[37m      17 │     Currency: [32mstring[37m | null
+         ╵               [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:17:23:
+[37m      17 │     Currency: string | [32mnull[37m
+         ╵                        [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:18:13:
+[37m      18 │     RemInfo: [32mstring[37m | null
+         ╵              [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:18:22:
+[37m      18 │     RemInfo: string | [32mnull[37m
+         ╵                       [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:19:16:
+[37m      19 │     DetCharges: [32mstring[37m | null
+         ╵                 [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:19:25:
+[37m      19 │     DetCharges: string | [32mnull[37m
+         ╵                          [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:20:14:
+[37m      20 │     TxTypeId: [32mstring[37m | null
+         ╵               [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:20:23:
+[37m      20 │     TxTypeId: string | [32mnull[37m
+         ╵                        [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:21:12:
+[37m      21 │     TxCode: [32mstring[37m | null
+         ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:21:21:
+[37m      21 │     TxCode: string | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:22:17:
+[37m      22 │     SendRecInfo: [32mstring[37m | null
+         ╵                  [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:22:26:
+[37m      22 │     SendRecInfo: string | [32mnull[37m
+         ╵                           [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'number' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:23:16:
+[37m      23 │     PriorityId: [32mnumber[37m | null
+         ╵                 [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:23:25:
+[37m      23 │     PriorityId: number | [32mnull[37m
+         ╵                          [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:24:17:
+[37m      24 │     ChgComments: [32mstring[37m | null
+         ╵                  [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:24:26:
+[37m      24 │     ChgComments: string | [32mnull[37m
+         ╵                           [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:25:12:
+[37m      25 │     Editor: [32mstring[37m | null
+         ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:25:21:
+[37m      25 │     Editor: string | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:26:19:
+[37m      26 │     CurrencyToBuy: [32mstring[37m | null
+         ╵                    [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:26:28:
+[37m      26 │     CurrencyToBuy: string | [32mnull[37m
+         ╵                             [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'number' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:27:17:
+[37m      27 │     AmountToBuy: [32mnumber[37m | null
+         ╵                  [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:27:26:
+[37m      27 │     AmountToBuy: number | [32mnull[37m
+         ╵                           [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:28:16:
+[37m      28 │     BatchRefId: [32mstring[37m | null
+         ╵                 [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:28:25:
+[37m      28 │     BatchRefId: string | [32mnull[37m
+         ╵                          [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:29:15:
+[37m      29 │     DateStamp: [32mDate[37m | null
+         ╵                [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:29:22:
+[37m      29 │     DateStamp: Date | [32mnull[37m
+         ╵                       [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:30:12:
+[37m      30 │     Source: [32mstring[37m | null
+         ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:30:21:
+[37m      30 │     Source: string | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:31:21:
+[37m      31 │     CustomerChannel: [32mstring[37m | null
+         ╵                      [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:31:30:
+[37m      31 │     CustomerChannel: string | [32mnull[37m
+         ╵                               [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:32:25:
+[37m      32 │     BeneficiaryCategory: [32mstring[37m | null
+         ╵                          [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:32:34:
+[37m      32 │     BeneficiaryCategory: string | [32mnull[37m
+         ╵                                   [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:33:12:
+[37m      33 │     OldTrn: [32mstring[37m | null
+         ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:33:21:
+[37m      33 │     OldTrn: string | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:34:13:
+[37m      34 │     UpdUser: [32mstring[37m | null
+         ╵              [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:34:22:
+[37m      34 │     UpdUser: string | [32mnull[37m
+         ╵                       [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:35:13:
+[37m      35 │     AppUser: [32mstring[37m | null
+         ╵              [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:35:22:
+[37m      35 │     AppUser: string | [32mnull[37m
+         ╵                       [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:36:14:
+[37m      36 │     ElstTime: [32mDate[37m | null
+         ╵               [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:36:21:
+[37m      36 │     ElstTime: Date | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:37:13:
+[37m      37 │     LstTime: [32mDate[37m | null
+         ╵              [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:37:20:
+[37m      37 │     LstTime: Date | [32mnull[37m
+         ╵                     [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:38:13:
+[37m      38 │     RjtTime: [32mDate[37m | null
+         ╵              [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:38:20:
+[37m      38 │     RjtTime: Date | [32mnull[37m
+         ╵                     [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:39:12:
+[37m      39 │     Branch: [32mstring[37m | null
+         ╵             [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:39:21:
+[37m      39 │     Branch: string | [32mnull[37m
+         ╵                      [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:40:10:
+[37m      40 │     Dept: [32mstring[37m | null
+         ╵           [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:40:19:
+[37m      40 │     Dept: string | [32mnull[37m
+         ╵                    [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2693: 'string' only refers to a type, but is being used as a value here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:41:15:
+[37m      41 │     IsAltered: [32mstring[37m | null
+         ╵                [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS18050: The value 'null' cannot be used here.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:41:24:
+[37m      41 │     IsAltered: string | [32mnull[37m
+         ╵                         [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/models/payment-and-history.model.ts:42:0:
+[37m      42 │ [32m}[37m
+         ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'IO' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'io'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:94:79:
+[37m      94 │ ...story.filter(payment => payment.[32mIO[37m?.toLowerCase() === 'outgoing');
+         ╵                                    [32m~~[0m
+
+  'io' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mio[37m: string | null
+        ╵     [32m~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2551: Property 'IO' does not exist on type 'PaymentAndHistoryModel'. Did you mean 'io'?[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.ts:105:79:
+[37m      105 │ ...tory.filter(payment => payment.[32mIO[37m?.toLowerCase() === 'incoming');
+          ╵                                   [32m~~[0m
+
+  'io' is declared here.
+
+    src/app/models/payment-and-history.model.ts:6:4:
+[37m      6 │     [32mio[37m: string | null
+        ╵     [32m~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'undefiend' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:48:16:
+[37m      48 │         [size]="[32mundefiend[37m"
+         ╵                 [32m~~~~~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:14:15:
+[37m      14 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'small' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:48:16:
+[37m      48 │         [size]="[32msmall[37m"
+         ╵                 [32m~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:14:15:
+[37m      14 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'small' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:48:16:
+[37m      48 │         [size]="[32msmall[37m"
+         ╵                 [32m~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:14:15:
+[37m      14 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'Small' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:48:16:
+[37m      48 │         [size]="[32mSmall[37m"
+         ╵                 [32m~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:14:15:
+[37m      14 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'Small' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:48:16:
+[37m      48 │         [size]="[32mSmall[37m"
+         ╵                 [32m~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:14:15:
+[37m      14 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'Small' does not exist on type 'DashboardComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.html:48:16:
+[37m      48 │         [size]="[32mSmall[37m"
+         ╵                 [32m~~~~~[0m
+
+  Error occurs in the template of component DashboardComponent.
+
+    src/app/features/dashboard/dashboard.component.ts:14:15:
+[37m      14 │   templateUrl: [32m'./dashboard.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mComments in CSS use "/* ... */" instead of "//"[0m [1m[35m[plugin angular-compiler][0m [js-comment-in-css]
+
+    src/app/features/dashboard/dashboard.component.css:184:26:
+[37m      184 │   word-break: break-word; [32m//[37m
+          ╵                           [32m~~[0m
+
+[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mExpected "}" to go with "{"[0m [1m[35m[plugin angular-compiler][0m [css-syntax-error]
+
+    src/app/features/dashboard/dashboard.component.css:305:0:
+[37m      305 │ [32m[37m
+          │ [32m^[37m
+          ╵ [32m}[0m
+
+  The unbalanced "{" is here:
+
+    src/app/features/dashboard/dashboard.component.css:172:62:
+[37m      172 │ :host ::ng-deep .dashboard-table .p-datatable-thead > tr > th [32m{[37m
+          ╵                                                               [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected "*/" to terminate multi-line comment[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard.component.css:305:0:
+[37m      305 │ [32m[37m
+          ╵ [32m^[0m
+
+  The multi-line comment starts here:
+
+    src/app/features/dashboard/dashboard.component.css:184:26:
+[37m      184 │   word-break: break-word; [32m/*[37m
+          ╵                           [32m~~[0m
+
+[39m[22m

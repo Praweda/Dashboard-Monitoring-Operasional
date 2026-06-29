@@ -1,0 +1,42 @@
+export interface PaymentAndHistoryModel {
+    trn: string
+    relTrn: string | null
+    busDate: string | null
+    settleDate: string | null
+    io: string | null
+    debPartiClient: string | null
+    accDebPartiClient: string | null
+    crPartiClient: string | null
+    accCrPartiClient: string | null
+    fromMember: string | null
+    toMember: string | null 
+    debAccount: string | null
+    debAccountOriName: string | null
+    crAccount: string | null
+    amount: number | null
+    currency: string | null
+    remInfo: string | null
+    detCharges: string | null
+    txTypeId: string | null
+    txCode: string | null
+    sendRecInfo: string | null
+    priorityId: number | null
+    chgComments: string | null
+    editor: string | null
+    currencyToBuy: string | null
+    amountToBuy: number | null
+    batchRefId: string | null
+    dateStamp: string | null
+    source: string | null
+    customerChannel: string | null
+    beneficiaryCategory: string | null
+    oldTrn: string | null
+    updUser: string | null
+    appUser: string | null
+    elstTime: string | null
+    lstTime: string | null
+    rjtTime: string | null
+    branch: string | null
+    dept: string | null
+    isAltered: string | null
+}

@@ -17,7 +17,7 @@ public class SqlServerDbContext : EfDbContext
     public DbSet<PaymentSagaEntity> PaymentSagas => Set<PaymentSagaEntity>();
     public DbSet<PaymentMonitoringEntity> PaymentMonitorings => Set<PaymentMonitoringEntity>();
     public DbSet<PaymentAndHistoryEntity> PaymentAndHistory => Set<PaymentAndHistoryEntity>();
-    public DbSet<PaymentAndHistorymMonitoringEntity> PaymentAndHistorymMonitorings => Set<PaymentAndHistorymMonitoringEntity>();
+    public DbSet<PaymentAndHistoryMonitoringEntity> PaymentAndHistoryMonitorings => Set<PaymentAndHistoryMonitoringEntity>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -44,7 +44,7 @@ public class SqlServerDbContext : EfDbContext
 
         modelBuilder.Entity<PaymentMonitoringEntity>(entity =>
         {
-            entity.HasKey(payment => payment.BusDate);
+            entity.HasKey(payment => new { payment.BusDate, payment.IO });
         });
 
         modelBuilder.Entity<PaymentAndHistoryEntity>(entity =>
@@ -53,9 +53,9 @@ public class SqlServerDbContext : EfDbContext
             entity.HasKey(payment => payment.BusDate);
         });
 
-        modelBuilder.Entity<PaymentAndHistorymMonitoringEntity>(entity =>
+        modelBuilder.Entity<PaymentAndHistoryMonitoringEntity>(entity =>
         {
-            entity.HasKey(payment => payment.BusDate);
+            entity.HasKey(payment => new { payment.BusDate, payment.IO });
             entity.Property(payment => payment.TotalAmount).HasPrecision(18, 2);
         });
     }

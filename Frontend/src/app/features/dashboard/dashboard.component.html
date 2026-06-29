@@ -1,0 +1,161 @@
+<main class="dashboard-shell">
+  <header class="dashboard-header">
+    <div>
+      <h1>Analitik Data</h1>
+      <p>Ringkasan performa dan distribusi penjualan.</p>
+    </div>
+
+    <div class="period-switch" aria-label="Pilih periode">
+      @for (period of periods; track period) {
+        <button
+          type="button"
+          [class.active]="selectedPeriod === period"
+          (click)="selectPeriod(period)">
+          {{ period }}
+        </button>
+      }
+    </div>
+  </header>
+
+  <section class="chart-card" aria-labelledby="chart-title">
+    <div class="card-title-row">
+      <h2 id="chart-title">RTGS Dashboard - Transaksi</h2>
+      <span class="trend-icon" aria-hidden="true">~</span>
+    </div>
+
+    <div class="chart-wrap">
+      <p-chart
+        type="line"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        height="390px"
+        ariaLabel="Grafik transaksi RTGS tanggal 10 sampai 14 Oktober" />
+    </div>
+  </section>
+
+  <section class="tables-grid">
+    <article class="table-card">
+      <div class="table-card-header">
+        <h2>Data Outgoing</h2>
+        <button type="button" class="download-button">Download Csv <span aria-hidden="true">v</span></button>
+      </div>
+
+      <p-table
+        [value]="outgoingRows"
+        styleClass="dashboard-table"
+        [showGridlines]="true"
+        [stripedRows]="true"
+        [size]="tableSize"
+        [rowHover]="true"
+        [scrollable]="true"
+        scrollHeight="440px"
+        responsiveLayout="scroll"
+        [tableStyle]="{ 'min-width': '120rem' }">
+        <ng-template pTemplate="header">
+          <tr>
+            <th>Business Date</th>
+            <th>Trn</th>
+            <th>DebPartiClient</th>
+            <th>AccDebPartiClient</th>
+            <th>CrPartiClient</th>
+            <th>AccCrPartiClient</th>
+            <th>FromMember</th>
+            <th>ToMember</th>
+            <th>DebAccount</th>
+            <th>DebAccountOriName</th>
+            <th>CrAccount</th>
+            <th>Amount</th>
+            <th>TxCode</th>
+            <th>PriorityId</th>
+            <th>AmountToBuy</th>
+            <th>OldTrn</th>
+            <th>Branch</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-row>
+          <tr>
+            <td>{{ displayDate(row.busDate) }}</td>
+            <td>{{ displayValue(row.trn) }}</td>
+            <td>{{ displayValue(row.debPartiClient) }}</td>
+            <td>{{ displayValue(row.accDebPartiClient) }}</td>
+            <td>{{ displayValue(row.crPartiClient) }}</td>
+            <td>{{ displayValue(row.accCrPartiClient) }}</td>
+            <td>{{ displayValue(row.fromMember) }}</td>
+            <td>{{ displayValue(row.toMember) }}</td>
+            <td>{{ displayValue(row.debAccount) }}</td>
+            <td>{{ displayValue(row.debAccountOriName) }}</td>
+            <td>{{ displayValue(row.crAccount) }}</td>
+            <td class="amount">{{ displayAmount(row.amount) }}</td>
+            <td>{{ displayValue(row.txCode) }}</td>
+            <td>{{ displayValue(row.priorityId) }}</td>
+            <td class="amount">{{ displayAmount(row.amountToBuy) }}</td>
+            <td>{{ displayValue(row.oldTrn) }}</td>
+            <td>{{ displayValue(row.branch) }}</td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </article>
+
+    <article class="table-card">
+      <div class="table-card-header">
+        <h2>Data Incoming</h2>
+        <button type="button" class="download-button">Download Csv <span aria-hidden="true">v</span></button>
+      </div>
+
+      <p-table
+        [value]="incomingRows"
+        styleClass="dashboard-table"
+        [showGridlines]="true"
+        [stripedRows]="true"
+        [size]="tableSize"
+        [rowHover]="true"
+        [scrollable]="true"
+        scrollHeight="440px"
+        responsiveLayout="scroll"
+        [tableStyle]="{ 'min-width': '120rem' }">
+        <ng-template pTemplate="header">
+          <tr>
+            <th>Business Date</th>
+            <th>Trn</th>
+            <th>DebPartiClient</th>
+            <th>AccDebPartiClient</th>
+            <th>CrPartiClient</th>
+            <th>AccCrPartiClient</th>
+            <th>FromMember</th>
+            <th>ToMember</th>
+            <th>DebAccount</th>
+            <th>DebAccountOriName</th>
+            <th>CrAccount</th>
+            <th>Amount</th>
+            <th>TxCode</th>
+            <th>PriorityId</th>
+            <th>AmountToBuy</th>
+            <th>OldTrn</th>
+            <th>Branch</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-row>
+          <tr>
+            <td>{{ displayDate(row.busDate) }}</td>
+            <td>{{ displayValue(row.trn) }}</td>
+            <td>{{ displayValue(row.debPartiClient) }}</td>
+            <td>{{ displayValue(row.accDebPartiClient) }}</td>
+            <td>{{ displayValue(row.crPartiClient) }}</td>
+            <td>{{ displayValue(row.accCrPartiClient) }}</td>
+            <td>{{ displayValue(row.fromMember) }}</td>
+            <td>{{ displayValue(row.toMember) }}</td>
+            <td>{{ displayValue(row.debAccount) }}</td>
+            <td>{{ displayValue(row.debAccountOriName) }}</td>
+            <td>{{ displayValue(row.crAccount) }}</td>
+            <td class="amount">{{ displayAmount(row.amount) }}</td>
+            <td>{{ displayValue(row.txCode) }}</td>
+            <td>{{ displayValue(row.priorityId) }}</td>
+            <td class="amount">{{ displayAmount(row.amountToBuy) }}</td>
+            <td>{{ displayValue(row.oldTrn) }}</td>
+            <td>{{ displayValue(row.branch) }}</td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </article>
+  </section>
+</main>

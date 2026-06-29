@@ -9,5 +9,5 @@ public class PaymentMonitoringEntity
     public DateTime? BusDate { get; set; }
     public string? IO { get; set; }
     public decimal? TotalAmount { get; set; }
-    public int? Volume { get; set; }
+    public long? Volume { get; set; }
 }
